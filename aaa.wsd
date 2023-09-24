@@ -1,0 +1,28 @@
+@startuml
+participant User
+
+User -> A: DoWork
+activate A
+
+A -> B: << createRequest asdfasdf>>
+activate B
+
+B -> C: DoWorkasdassdaasa
+activate C
+C --> B: WorkDoneqq
+destroy C
+
+B --> A: RequestCre
+deactivate B
+
+A -> User: Done
+deactivate A
+
+@enduml
+
+
+# sdfdsfs
+
+# addsfd
+sdfsadf
+asdfsdf
